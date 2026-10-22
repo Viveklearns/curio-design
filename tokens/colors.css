@@ -1,0 +1,54 @@
+:root{
+  /* Paper (UI surfaces) */
+  --paper-1:oklch(0.985 0.004 85);
+  --paper-2:oklch(0.955 0.006 85);
+  --paper-3:oklch(0.920 0.006 85);
+  --line:oklch(0.880 0.008 85);
+  --line-soft:oklch(0.900 0.006 85);
+  /* Ink (text on paper) */
+  --ink-1:oklch(0.220 0.030 265);
+  --ink-2:oklch(0.400 0.025 265);
+  --ink-3:oklch(0.550 0.020 265);
+  /* Studio (where the 3D subject lives) */
+  --studio-0:oklch(0.200 0.030 265);
+  --studio-1:oklch(0.240 0.030 265);
+  --studio-2:oklch(0.270 0.030 265);
+  --studio-3:oklch(0.350 0.030 265);
+  --on-studio:oklch(0.970 0.005 85);
+  --on-studio-muted:oklch(0.720 0.020 265);
+  --on-studio-dim:oklch(0.800 0.015 265);
+  /* Day stage, for Earth/outdoor topics */
+  --stage-day:oklch(0.950 0.015 230);
+  --stage-day-floor:oklch(0.910 0.020 230);
+  /* The one accent: actions + Level 1 pins */
+  --spark:oklch(0.660 0.190 35);
+  --spark-hover:oklch(0.700 0.190 35);
+  --spark-deep:oklch(0.550 0.170 35);
+  /* Diagram colours: subject parts only, never UI */
+  --diagram-air:oklch(0.780 0.120 220);
+  --diagram-life:oklch(0.780 0.120 150);
+  --diagram-energy:oklch(0.780 0.120 85);
+  --diagram-matter:oklch(0.780 0.120 300);
+  /* Feedback */
+  --correct:oklch(0.620 0.140 150);
+  --correct-tint:oklch(0.950 0.040 150);
+  --retry-tint:oklch(0.950 0.006 85);
+  --retry-ink:oklch(0.500 0.020 265);
+  --reward:oklch(0.800 0.150 85);
+
+  /* Semantic aliases */
+  --surface-page:var(--paper-1);
+  --surface-card:var(--paper-1);
+  --surface-sunken:var(--paper-2);
+  --surface-stage:var(--studio-1);
+  --surface-frame:var(--studio-0);
+  --surface-panel-dark:var(--studio-2);
+  --text-strong:var(--ink-1);
+  --text-body:var(--ink-2);
+  --text-muted:var(--ink-3);
+  --border:var(--line);
+  --action-primary:var(--spark);
+  --action-primary-hover:var(--spark-hover);
+  --action-on-primary:var(--studio-0);
+  --focus-ring:var(--spark);
+}

@@ -1,0 +1,24 @@
+:root{
+  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;
+  --space-6:32px;--space-7:48px;--space-8:72px;--space-9:120px;
+
+  --radius-sm:10px;--radius-md:14px;--radius-lg:20px;--radius-xl:28px;--radius-pill:999px;
+
+  --border-hair:1px;
+  --border-strong:1.5px;
+
+  --shadow-frame:0 40px 80px -40px oklch(0.22 0.03 265 / 0.5);
+  --shadow-lift:0 2px 6px -2px oklch(0.22 0.03 265 / 0.25);
+  --shadow-held:0 12px 20px -8px oklch(0 0 0 / 0.5);
+
+  /* Annotation pin */
+  --pin-dot:14px;
+  --pin-halo:5px;
+  --pin-leader:36px;
+  --pin-leader-width:1.5px;
+
+  --touch-min:44px;
+  --touch-comfort:48px;
+  --touch-primary:52px;
+  --content-max:1280px;
+}

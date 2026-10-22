@@ -1,0 +1,28 @@
+:root{
+  --font-display:"Bricolage Grotesque",system-ui,sans-serif;
+  --font-body:"Figtree",system-ui,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,monospace;
+
+  --text-hero:clamp(40px,5vw,64px);
+  --text-h1:clamp(32px,4vw,44px);
+  --text-h2:clamp(24px,3vw,32px);
+  --text-h3:24px;
+  --text-lg:18px;
+  --text-md:16px;
+  --text-sm:14px;
+  --text-xs:12px;
+  --text-readout:26px;
+  --text-eyebrow:12px;
+
+  --weight-display:800;
+  --weight-heading:700;
+  --weight-strong:600;
+  --weight-body:400;
+
+  --leading-display:0.98;
+  --leading-tight:1.15;
+  --leading-body:1.5;
+  --tracking-display:-0.035em;
+  --tracking-heading:-0.02em;
+  --tracking-eyebrow:0.08em;
+}
